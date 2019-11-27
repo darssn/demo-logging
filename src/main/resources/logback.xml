@@ -22,7 +22,7 @@
 		</encoder>
 	</appender>
 	
-	<logger name="dev.console" level="DEBUG">
+	<logger name="dev.console" level="DEBUG" additivity="false">
 		<appender-ref ref ="FILE" />
 	</logger>
 
